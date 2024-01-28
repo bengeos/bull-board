@@ -1,0 +1,30 @@
+{
+  "name": "bull-board",
+  "version": "1.0.0",
+  "description": "BullMQ monitor board",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bengeos/bull-board.git"
+  },
+  "keywords": [
+    "bullmq",
+    "Bull",
+    "MQ"
+  ],
+  "author": "Biniam Kassahun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bengeos/bull-board/issues"
+  },
+  "homepage": "https://github.com/bengeos/bull-board#readme",
+  "dependencies": {
+    "bull": "^4.12.2",
+    "bull-board": "^2.1.3",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2"
+  }
+}

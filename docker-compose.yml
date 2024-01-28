@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  bull-board:
+    build: .
+    image: gluontech/bull-board
+    ports:
+      - "3000:3000"
+    environment:
+      REDIS_HOST: 127.0.0.1
+      REDIS_PORT: 6379
+      BULL_QUEUES: queue1, queue2
